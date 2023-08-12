@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pdfmydjvu"
+version = "0.1.0"
+description = "Lossless, efficient DjVU to PDF encoder"
+authors = ["Christopher Hillenbrand <chillenbrand15@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djvulibre-python = ">=0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
